@@ -1,0 +1,17 @@
+import * as React from "react";
+import Box from "../../components/_shared/Box";
+import Text from "../../components/_shared/Text";
+
+const ScreenOne = () => {
+  return (
+    <Box
+      flex={1}
+      alignItems={'center'}
+      justifyContent={'center'}
+    >
+      <Text>ScreenOne</Text>
+    </Box>
+  );
+};
+
+export default ScreenOne;
