@@ -100,7 +100,6 @@ export const theme: BaseTheme = createTheme({
     anyDescription: {
       fontSize: 13,
       textAlign: 'left',
-      fontFamily:'BaiJamjuree-Regular',
       color: 'darkGray',
     }
   }
