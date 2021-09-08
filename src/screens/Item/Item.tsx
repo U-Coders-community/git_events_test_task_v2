@@ -2,16 +2,16 @@ import * as React from "react";
 import Box from "../../components/_shared/Box";
 import Text from "../../components/_shared/Text";
 
-const ScreenOne = () => {
+const Item = () => {
   return (
     <Box
       flex={1}
       alignItems={'center'}
       justifyContent={'center'}
     >
-      <Text>ScreenOne</Text>
+      <Text>Item</Text>
     </Box>
   );
 };
 
-export default ScreenOne;
+export default Item;

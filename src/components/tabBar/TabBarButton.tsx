@@ -25,13 +25,9 @@ export const TabBarButton: React.FC<Props> = (props) => {
   };
   const getTabBarIconByRoute = (title: string) => {
     switch (title) {
-      case ROUTES.HOME:
+      case ROUTES.LIST:
         return SVG_ITEMS.MOCK;
-      case ROUTES.SCREEN_ONE:
-        return SVG_ITEMS.MOCK;
-      case ROUTES.SCREEN_TWO:
-        return SVG_ITEMS.MOCK;
-      case ROUTES.SCREEN_THREE:
+      case ROUTES.ITEM:
         return SVG_ITEMS.MOCK;
     }
   }
