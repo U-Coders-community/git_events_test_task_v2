@@ -27,4 +27,3 @@ yarn ios
 command:
 yarn android
 ######(from the root folder)
-###This layout will grow and develop, happy hacking:)
