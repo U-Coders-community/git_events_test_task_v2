@@ -6,9 +6,11 @@ import 'react-native-gesture-handler';
 import { ThemeProvider } from "@shopify/restyle";
 import { NavigationContainer } from "@react-navigation/native";
 import { Provider } from "react-redux";
+import {SafeAreaView} from "react-native";
 
 const App = () => {
   return (
+    <SafeAreaView style={{flex:1}}>
     <NavigationContainer>
       <ThemeProvider theme={theme}>
         <Provider store={store}>
@@ -16,6 +18,7 @@ const App = () => {
         </Provider>
       </ThemeProvider>
     </NavigationContainer>
+    </SafeAreaView>
   );
 };
 
